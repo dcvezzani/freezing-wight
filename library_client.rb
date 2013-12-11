@@ -27,7 +27,7 @@ greet
 
 while true
 	nav_options
-	nav_choice = gets.chomp
+	nav_choice = STDIN.gets.chomp
 	case nav_choice
 	when "1"
 		puts "Here is a list of the books you own"
